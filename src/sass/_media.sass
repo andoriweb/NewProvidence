@@ -3,6 +3,18 @@
   .header-menu
     display: none
 
+  .features
+    text-align: center
+    &-wrapper
+      flex-direction: column
+      >div:first-child
+        margin-bottom: 80px
+    &__img
+      margin: 0 auto 35px
+
+
+
+
 @media( max-width: 575px )
   .header
     background: #f6f7f9
@@ -14,6 +26,13 @@
       margin-top: 80px
     &__img
       display: none
+
+  .features
+    padding: 80px 0
+    &-block
+      padding: 0
+
+
 
 @media( max-width: 400px )
   .header-wrapper
