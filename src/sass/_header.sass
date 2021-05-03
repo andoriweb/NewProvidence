@@ -1,0 +1,42 @@
+/*<header class="header">*/
+.header
+  padding: 40px 0 0
+  background: url(../img/header/main-bg.jpg) center center no-repeat
+  background-size: cover
+
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &-menu a
+    font-size: 17px
+    color: $title-color
+    letter-spacing: 0px
+    margin-right: 32px
+
+  &-menu__right, &-menu__left
+    display: flex
+    align-items: center
+
+  &-btn
+    padding: 10px 20px 10px 15px
+    span
+      display: flex
+      align-items: center
+      letter-spacing: 1.1px
+      font-weight: bold
+      &::before
+        content: ''
+        display: inline-block
+        width: 16px
+        height: 21px
+        background: url(../img/header/apple.png) center no-repeat
+        margin-right: 12px
+
+.hamburger
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 20px
+  margin-right: 27px
