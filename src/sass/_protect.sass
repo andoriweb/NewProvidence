@@ -1,0 +1,47 @@
+/** <section class="protect"> **/
+.protect
+  position: relative
+  padding: 140px 0 0
+  
+  &-wrapper
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+  &__img
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -1
+
+  &__text
+    width: 470px
+
+  &__title
+    margin-bottom: 73px
+
+  &__descr
+    line-height: 28px
+
+    & p:first-child
+      margin-bottom: 40px
+
+  &__buttons
+    margin-top: 75px
+
+  &__btn
+    position: relative 
+    padding: 15px 80px 15px 25px
+
+    &::before
+      content: ''
+      width: 13px
+      height: 11px
+      background: url(../img/protect/arrow_icon.png) center no-repeat
+      position: absolute
+      top: calc(50% - 5px)
+      right: 25px
+
+  &__button-o
+    padding: 14px 30px
+    margin-left: 20px
