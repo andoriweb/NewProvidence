@@ -1,7 +1,7 @@
 /** <section class="protect"> **/
 .protect
   position: relative
-  padding: 140px 0 0
+  padding: 140px 0 42px 0
   
   &-wrapper
     display: flex
@@ -9,6 +9,7 @@
     align-items: center
 
   &__img
+    max-height: 772px
     position: absolute
     top: 0
     left: 0
@@ -16,22 +17,26 @@
 
   &__text
     width: 470px
+    // margin-left: 102px
+    // align-self: flex-start
 
   &__title
-    margin-bottom: 73px
+    margin-bottom: 65px
+    line-height: 50px
 
   &__descr
-    line-height: 28px
+    line-height: 27px
 
     & p:first-child
-      margin-bottom: 40px
+      margin-bottom: 30px
+      line-height: 28px
 
   &__buttons
     margin-top: 75px
 
   &__btn
     position: relative 
-    padding: 15px 80px 15px 25px
+    padding: 13px 76px 13px 28px
 
     &::before
       content: ''
@@ -40,7 +45,7 @@
       background: url(../img/protect/arrow_icon.png) center no-repeat
       position: absolute
       top: calc(50% - 5px)
-      right: 25px
+      right: 20px
 
   &__button-o
     padding: 14px 30px

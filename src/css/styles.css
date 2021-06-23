@@ -39,7 +39,7 @@ img {
   font-weight: 400;
   border: 1px solid #dadcde;
   border-radius: 25px;
-  padding: 17px 40px;
+  padding: 13px 30px;
   color: #26272d;
   background: transparent; }
 
@@ -169,7 +169,7 @@ img {
 /** <section class="protect"> **/
 .protect {
   position: relative;
-  padding: 140px 0 0; }
+  padding: 140px 0 42px 0; }
   .protect-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -181,6 +181,7 @@ img {
         -ms-flex-align: center;
             align-items: center; }
   .protect__img {
+    max-height: 772px;
     position: absolute;
     top: 0;
     left: 0;
@@ -188,16 +189,18 @@ img {
   .protect__text {
     width: 470px; }
   .protect__title {
-    margin-bottom: 73px; }
+    margin-bottom: 65px;
+    line-height: 50px; }
   .protect__descr {
-    line-height: 28px; }
+    line-height: 27px; }
     .protect__descr p:first-child {
-      margin-bottom: 40px; }
+      margin-bottom: 30px;
+      line-height: 28px; }
   .protect__buttons {
     margin-top: 75px; }
   .protect__btn {
     position: relative;
-    padding: 15px 80px 15px 25px; }
+    padding: 13px 76px 13px 28px; }
     .protect__btn::before {
       content: '';
       width: 13px;
@@ -205,7 +208,7 @@ img {
       background: url(../img/protect/arrow_icon.png) center no-repeat;
       position: absolute;
       top: calc(50% - 5px);
-      right: 25px; }
+      right: 20px; }
   .protect__button-o {
     padding: 14px 30px;
     margin-left: 20px; }
